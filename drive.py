@@ -3,7 +3,6 @@ import socketio
 import eventlet
 from flask import Flask
 import tensorflow
-# from keras.models import load_model
 from tensorflow.keras.models import load_model
 import base64
 from io import BytesIO
@@ -50,9 +49,7 @@ def send_control(steering_angle, throttle):
     })
 
 if __name__ == '__main__':
-    # model = load_model('Behclon.h5')
     file_name = os.path.dirname(__file__) +'\Behclon.h5'
-    # test_dataset = h5py.File(file_name, "r")
     model = load_model(file_name, compile=False)
     app = socketio.Middleware(sio, app)
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)
