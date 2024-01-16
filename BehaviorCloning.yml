@@ -1,0 +1,14 @@
+name: BehaviorCloning
+
+channels:
+  - defaults
+
+dependencies:
+  - flask
+  - python=3.10
+  - python-socketio==4.6.1
+  - eventlet
+  - tensorflow
+  - pillow
+  - opencv
+  - python-engineio==3.13.2
