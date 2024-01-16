@@ -11,6 +11,16 @@ Open the Udacity simulator with 800x600 Screen ration and Graphics quality 'Fast
 
 <p align="center">
     <img src="Track 1.png" alt="Track 1" width="300" height="200">
+</p>
 
+<p align="center">
+    <b>Track 1</b>
+</p>
+
+<p align="center">
     <img src="Track 2.png" alt="Track 2" width="300" height="200">
+</p>
+
+<p align="center">
+    <b>Track 2</b>
 </p>
