@@ -9,6 +9,8 @@ $ python drive.py
 
 Open the Udacity simulator with 800x600 Screen ration and Graphics quality 'Fastest'. Start the simulator in autonomous mode.
 
-![Track 1](<Track 1.png>)
+<p align="center">
+    <img src="Track 1.png" alt="Track 1" width="300" height="200">
 
-![Track 2](<Track 2.png>)
+    <img src="Track 2.png" alt="Track 2" width="300" height="200">
+</p>
